@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# @name HIL Hexacopter X
+#
+# @type Simulation
+# @class Copter
+#
+# @maintainer jeyong <jeyong@subak.io>
+#
+
+sh /etc/init.d/rc.mc_defaults
+
+set MIXER hexa_x
+
+# Need to set all 8 channels
+set PWM_OUT 12345678
+
+set HIL yes

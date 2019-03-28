@@ -726,7 +726,7 @@ GPS::run()
 						// _report_gps_pos.lon = (int32_t)8.538777e7f;
 						// _report_gps_pos.alt = (int32_t)1200e3f;
 						_report_gps_pos.alt_ellipsoid = 10000;
-						_report_gps_pos.s_variance_m_s = 0.1f;
+						_report_gps_pos.s_variance_m_s = -1.0f;
 						_report_gps_pos.c_variance_rad = 0.1f;
 						_report_gps_pos.fix_type = 3;
 						_report_gps_pos.eph = 0.1f;
